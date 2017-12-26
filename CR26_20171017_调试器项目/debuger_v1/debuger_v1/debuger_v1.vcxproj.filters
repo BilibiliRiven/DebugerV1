@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DebugCore">
+      <UniqueIdentifier>{a25adb7e-fda1-4248-b67f-a504bc89be79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debuger">
+      <UniqueIdentifier>{519e5adf-05a9-410a-a64d-1359d2f5fd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="调试操作">
+      <UniqueIdentifier>{08dd7856-8bc1-44f0-bd6a-cd0d35718ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySnapshoot">
+      <UniqueIdentifier>{e588ce3d-2065-4b17-9c3e-9114acef164e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="debuger_v1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCore.h">
+      <Filter>DebugCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Debuger.h">
+      <Filter>Debuger</Filter>
+    </ClInclude>
+    <ClInclude Include="IMotion.h">
+      <Filter>调试操作</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakPoint.h">
+      <Filter>DebugCore</Filter>
+    </ClInclude>
+    <ClInclude Include="BpManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="debuger_v1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCore.cpp">
+      <Filter>DebugCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Debuger.cpp">
+      <Filter>Debuger</Filter>
+    </ClCompile>
+    <ClCompile Include="IMotion.cpp">
+      <Filter>调试操作</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakPoint.cpp">
+      <Filter>DebugCore</Filter>
+    </ClCompile>
+    <ClCompile Include="BpManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="debuger_v1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
